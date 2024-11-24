@@ -14,3 +14,7 @@ lang chain lab
 
 ### install requirements
 `pip install -r requirements.txt`
+
+## How to add new packages using pip-tools
+
+Add package name to `requirements.in` file. Run `pip-compile` command to regenerate new `requirements.txt` file.

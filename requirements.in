@@ -1,0 +1,6 @@
+notebook
+langchain
+python-dotenv
+
+# Platform-specific dependency for Windows
+pywin32==308; sys_platform == "win32"
