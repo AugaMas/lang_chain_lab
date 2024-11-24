@@ -6,8 +6,11 @@ lang chain lab
 ### Create venv
 `python -m venv venv`
 
-### Activate venv
+### Activate venv on Mac OS
 `source venv/bin/activate`
+
+### Activare venv on Windows
+`venv\Scripts\activate`
 
 ### install requirements
 `pip install -r requirements.txt`
